@@ -1,0 +1,375 @@
+/* .prod{
+    border: 1px solid black;
+    position: relative;
+    height: 600px;
+    display: flex;
+    margin-bottom: 20px;
+
+}
+.prod-2{
+    border: 1px solid black;
+    margin: 20px;
+    width: 330px;
+    height: 500px;
+    
+}
+.card{
+    width: 100%;
+    height: 200px;
+    background: #F6F8F9;
+    color: #000;
+    font-size: 30px;
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-img{
+    width: 330px;
+    height: 500px;
+    cursor: pointer;
+    margin: 20px;
+}
+.prod3{
+    border: 1px solid black;
+    margin: 20px 20px 20px 40px;
+    padding: 20px;
+    width: 900px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.rate{
+    border: 1px solid black;
+    margin-left: 780px;
+    padding: 0 10px 0 10px;
+}
+.select{
+    border: 1px solid black;
+    height: 186px;
+    width: 480px;
+    display:inline;
+    justify-content: space-between;
+}
+.shoe-img{
+    height: 88px;
+    width: 88px;
+    margin-left: 7px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.shoe-img:hover {
+    transform: scale(1.1);
+    border: 1px solid black;
+  }
+.size-btn{
+    background-color:#F6F8F9;
+    border:none;
+    height: 30px;
+    width:40px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.size-btn:hover {
+    background-color: #ddd;
+  }
+  .cart{
+    border: 1px solid black;
+    height: 35px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.cart-btn{
+    height: 35px;
+    width: 140px;
+    cursor: pointer;
+    transition: transform 0.3 ease;
+
+
+    background-color:#FF0000;
+    border:2px solid #FF0000;
+    border-radius:5px;
+    color:#FFFFFF;
+}
+.cart-btn:hover{
+    transform: scale(1.1);
+}
+
+.fav-btn{
+    height: 35px;
+    width: 140px;
+    cursor: pointer;
+    transition: transform 0.3 ease;
+    background-color:white;
+    border-color:linear-gradient(to right, #FB0000, #666666) ;
+    border-radius:5px;
+    color:#000000;
+
+}
+.fav-btn:hover{
+    transform: scale(1.1);
+}
+  .services{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    width: 800px;
+    margin-left: 20px;
+  }
+
+  .ser{
+    border: 1px solid black;
+    text-align: center;
+  }
+  .feature{
+    border: 1px solid black;
+    position: relative;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+.Shoe-title{
+    font-size:25px;
+    color:#252C32;
+    font-weight:bolder;
+}
+.Shoe-gen{
+    font-size: 14px;
+    color:#6E7C87;
+    margin-top:-5px;
+}
+.Shoe-price{
+    margin-top:10px;
+    color:#252C32;
+    font-weight:bolder;
+    font-size:25px;
+}
+.Shoe-discount-price{
+    margin-top:10px;
+    color:#808080;
+    font-weight:bolder;
+    font-size:25px;
+    text-decoration-line:line-through;
+}
+.Shoe-discount{
+    margin-top:10px;
+    color:#008000;
+    font-weight:bolder;
+    font-size:20px;
+}
+ */
+ .prod {
+    position: relative;
+    height: auto;
+    display: flex;
+    /* flex-wrap: wrap; */
+    margin-bottom: 20px;
+}
+
+.prod-2 {
+    margin: 20px;
+    width: 100%;
+    max-width: 330px;
+    height: auto;
+}
+
+.card {
+    width: 100%;
+    height: 200px;
+    background: #F6F8F9;
+    color: #000;
+    font-size: 30px;
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-img {
+    width: 100%;
+    max-width: 330px;
+    height: auto;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.prod3 {
+    margin: 20px;
+    padding: 20px;
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.rate {
+    margin-left: auto;
+    padding: 0 10px;
+}
+
+.select {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.shoe-img {
+    height: 88px;
+    width: 88px;
+    margin: 7px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.shoe-img:hover {
+    transform: scale(1.1);
+}
+
+.cart {
+    /* border: 1px solid black; */
+    height: 35px;
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-btn {
+    height: 35px;
+    width: 140px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    background-color: #FF0000;
+    border: 2px solid #FF0000;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+.cart-btn:hover {
+    transform: scale(1.1);
+}
+
+.fav-btn {
+    height: 35px;
+    width: 140px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    background-color: white;
+    border: 1px solid linear-gradient(to right, #FB0000, #666666);
+    border-radius: 5px;
+    color: #000000;
+}
+
+.fav-btn:hover {
+    transform: scale(1.1);
+}
+.size-btn {
+    background-color: #F6F8F9;
+    border: none;
+    height: 30px;
+    width: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.size-btn:hover {
+    background-color: #ddd;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    width: 100%;
+    max-width: 800px;
+    margin-left: 20px;
+}
+
+.ser {
+    text-align: center;
+    flex: 1;
+    min-width: 150px;
+}
+
+.feature {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.feature .ser {
+    flex: 1;
+    min-width: 150px;
+}
+
+.Shoe-title {
+    font-size: 25px;
+    color: #252C32;
+    font-weight: bolder;
+}
+
+.Shoe-gen {
+    font-size: 14px;
+    color: #6E7C87;
+    margin-top: -5px;
+}
+
+.Shoe-price {
+    margin-top: 10px;
+    color: #252C32;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.Shoe-discount-price {
+    margin-top: 10px;
+    color: #808080;
+    font-weight: bolder;
+    font-size: 25px;
+    text-decoration-line: line-through;
+}
+
+.Shoe-discount {
+    margin-top: 10px;
+    color: #008000;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+
+@media (max-width: 768px) {
+    .prod {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .prod3, .services, .feature {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .rate {
+        margin-left: 0;
+    }
+
+    .cart {
+        justify-content: space-between;
+    }
+    .feature {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
