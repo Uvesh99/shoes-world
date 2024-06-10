@@ -1,0 +1,19 @@
+button {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(121, 18, 55) 0px 4px 0px 0px;
+    padding: 15px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    width: 144px;
+    height: 39px;
+    color: #000000;
+    border: 2px solid black;
+    text-align: center;
+    padding-bottom: 2rem;
+    margin-bottom: 5rem;
+    font-size: 15px;
+    transition: all 0.3s ease-in-out;
+    z-index: 1;
+    overflow: hidden;
+  }

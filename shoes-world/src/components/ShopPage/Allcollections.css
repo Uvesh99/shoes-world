@@ -1,0 +1,21 @@
+.ProductInfos{
+    display: flex;
+}
+.product_title_{
+    margin-bottom: 18px;
+    margin-left: 6.5rem;
+}
+.product_title1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: black;
+}
+a{
+    color: inherit;
+    background-color: transparent;
+    text-decoration: none;
+}

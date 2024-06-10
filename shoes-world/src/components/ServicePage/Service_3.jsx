@@ -9,7 +9,8 @@ import Button from '@mui/material/Button';
 
 export default function AccordionUsage() {
   return (
-    <div  style={{marginTop:"30px",marginLeft:"20px"}}>
+    <>
+    <div  className="sec3-main">
         <Accordion >
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
@@ -95,5 +96,6 @@ export default function AccordionUsage() {
         </AccordionActions> */}
       </Accordion>
     </div>
+    </>
   );
 }

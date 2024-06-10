@@ -1,0 +1,120 @@
+/* .Review-blocks{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    margin-top: 60px;
+    margin-left: 0px;
+    margin-bottom: 40px;
+    width:max-content;
+    padding: 20px;
+    margin-right: 50px;
+    height: 180px;
+}
+.Review-block-1{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+}
+.Review-block-2{
+    margin-left: 20px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+.Review-block-3{
+    margin-left: 20px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+}
+.form-review{
+    text-align: center;
+    textarea{
+        border: 2px solid black;
+        position: sticky;
+    }
+    button{
+        height: 30px;
+        width: 100px;
+        background-color: black;
+        border: 2px solid black;
+        border-radius: 5px;
+        color: white;
+    }
+}
+.vl {
+    border-left: 1px solid brown;
+    height: 150px;
+    margin-left: 10px;
+  } */
+
+  /* Default styles for Review-blocks */
+.Review-blocks {
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    margin-left: 0px;
+    margin-bottom: 40px;
+    width: max-content;
+    padding: 20px;
+    margin-right: 50px;
+    height: auto;
+    overflow: hidden;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .Review-blocks {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  /* Adjust Review-block-2 and Review-block-3 for responsiveness */
+  .Review-block-2,
+  .Review-block-3 {
+    margin-left: 100px;
+    margin-top: 20px; /* Adjust spacing */
+    width: 100%; /* Make them take full width */
+  }
+  
+  /* Responsive styles for form-review */
+  .form-review {
+    text-align: center;
+  }
+  
+  /* Responsive styles for textarea */
+  .form-review textarea {
+    width: 100%; /* Make the textarea take full width */
+    border: 2px solid black;
+  }
+  
+  /* Responsive styles for button */
+  .form-review button {
+    width: 100%; /* Make the button take full width */
+    margin-top: 10px; /* Add spacing between textarea and button */
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    cursor: pointer;
+  }
+  .vl {
+    border-left: 1px solid brown;
+    height: 150px;
+    margin-left: 10px;
+  }  
+
+  @media screen and (max-width: 768px) {
+    .vl{
+        display: none;
+    }
+  }

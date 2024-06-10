@@ -10,14 +10,12 @@ import shoe6 from "../assets/ProductPage/shoess6.png";
 import { useState } from "react";
 import { Carousel } from "./Carousel";
 import ProductPagedetails from "./ProductPagedetails";
-import Services from "./Services";
+import Services from "./ServicePage/Services";
 
 export default function Product(){
 
      const slides=[
         {src:shoe1,alt:"shoe1"},
-
-        
         {src:shoe2,alt:"shoe2"},
         {src:shoe3,alt:"shoe3"},
         {src:shoe4,alt:"shoe4"},
@@ -28,12 +26,10 @@ export default function Product(){
     return(
         <>
         <div className="prod">
-            {/* <img src={mainp1} alt="adidas"/> */}
             <Carousel data={slides} currentSlide={slide} setCurrentSlide={setSlide}/>
             <ProductPagedetails data={slides} currentSlide={slide} setCurrentSlide={setSlide}/>
         </div>
         <Services/>
-
         </>
     );
 }
