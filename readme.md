@@ -1,1 +1,1 @@
-Welcome to shoes-world
+Welcome to shoes world
